@@ -1,4 +1,7 @@
 package com.browner.practice.browner.model
 
-class Bank {
-}
+data class Bank(
+    val accountNumber: String,
+    val trust: Double,
+    val transactionFee: Int
+)
